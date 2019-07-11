@@ -1,0 +1,66 @@
+.campaign-media-item-container {
+  display: inline-block;
+  padding: 6px;
+  position: relative;
+  .campaign-media-image {
+    width: 100px;
+    height: 180px;
+    border-radius: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &.imagebroken {
+      background-image: url(/assets/broken.jpeg);
+      background-size: contain;
+    }
+    .campaign-media-play {
+      width: 100px;
+      height: 180px;
+      border-radius: 6px;
+      position: absolute;
+      background: $black;
+      opacity: 0.5;
+      text-align: center;
+      line-height: 180px;
+      cursor: pointer;
+      img {
+        height: 25px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .campaign-media-message {
+    display: inline-block;
+    padding: 8px 16px;
+    background: $darkgray;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.8;
+    p {
+      color: $white;
+      font-size: 14px;
+    }
+  }
+  .campaign-media-options {
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid $skyblue;
+
+    div {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      display: inline-block;
+      width: 50%;
+      text-align: center;
+      cursor: pointer;
+      &:first-child {
+        border-right: 1px solid $skyblue;
+      }
+    }
+    img {
+      height: 20px;
+    }
+  }
+}

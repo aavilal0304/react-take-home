@@ -1,0 +1,10 @@
+.campaign-media-list-container {
+  background: $lightgray;
+  padding: 12px;
+  text-align: left;
+  overflow-x: auto;
+  white-space: nowrap;
+  .campaign-media-empty {
+    padding: 6px;
+  }
+}

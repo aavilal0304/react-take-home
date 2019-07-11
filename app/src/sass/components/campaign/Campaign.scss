@@ -1,0 +1,10 @@
+.campaign-media-container {
+  height: calc(100vh - 58px);
+  text-align: center;
+  .error-message {
+    padding-top: calc((100vh - 180px) / 2);
+    p {
+      font-size: 18px;
+    }
+  }
+}

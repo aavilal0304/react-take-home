@@ -1,0 +1,26 @@
+.campaign-info-container {
+  box-shadow: 0 1px 0 0 $skyblue;
+  padding: 18px;
+  text-align: left;
+  img {
+    height: 65px;
+    border-radius: 18px;
+    margin-right: 14px;
+  }
+  .campaign-name-container {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: calc(100% - 79px);
+    .campaign-name {
+      font-size: 19px;
+      font-weight: bold;
+      line-height: 1.47;
+      margin-bottom: 5px;
+    }
+    .campaign-pay-per-install {
+      line-height: 1.13;
+      color: $green;
+    }
+  }
+}

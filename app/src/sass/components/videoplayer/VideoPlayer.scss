@@ -1,0 +1,19 @@
+.videoplayer-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+  background: $black;
+  line-height: 100%;
+  video {
+    width: 80%;
+    padding-top: 35px;
+  }
+  .close-button-container {
+    color: $lightgray;
+    padding: 6px;
+    font-size: 35px;
+    text-align: right;
+    margin-right: 18px;
+  }
+}
